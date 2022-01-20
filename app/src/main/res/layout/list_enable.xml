@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="16dp"
+    android:padding="8dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="4dp"
+    android:layout_height="wrap_content">
+<LinearLayout
+    android:id="@+id/ll_enable"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:background="@color/purple_200"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/tovar_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:layout_weight="1"
+        android:text="Name"/>
+    <TextView
+        android:id="@+id/tv_tovar_count_enable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="20dp"
+        android:text="0"/>
+</LinearLayout>
+</androidx.cardview.widget.CardView>
