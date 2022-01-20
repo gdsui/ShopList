@@ -28,4 +28,6 @@ class MainViewModel:ViewModel() {
     fun getShopListById(shoppingId:Int){
         getShopListByIdUseCase.getShopListById(shoppingId)
     }
+
+    //add some comment
 }
